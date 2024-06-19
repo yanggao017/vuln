@@ -1,4 +1,4 @@
-## luci-app-sms-tool OpenWrt plugin has a command injection vulnerability
+## Sms-tool OpenWrt plugin "luci-app-sms-tool" has a command injection vulnerability
 
 Affected product:  *luci-app-sms-tool* <= 1.9-6
 

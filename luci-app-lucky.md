@@ -1,4 +1,4 @@
-## luci-app-lucky OpenWrt plugin has a hardcoded credentials vulnerability
+## Lucky OpenWrt plugin "luci-app-lucky" has a hardcoded credentials vulnerability
 
 Affected product:  *luci-app-lucky* <= 2.8.3
 
