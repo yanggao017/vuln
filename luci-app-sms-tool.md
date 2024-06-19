@@ -14,6 +14,8 @@ When deal with `run_sms` request,`scode` parameter is vulnerable to OS command i
 
 ![8](img/8.png)
 
+### Verify
+
 payload:
 
 ```http

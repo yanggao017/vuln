@@ -15,6 +15,8 @@ When handling the `lucky_set_config` request, if the `key` is `reset_auth_info`,
 
 ![4](img/4.png)
 
+### Verify
+
 Before the attack, set the account to `admin` and the password to `hrgdsf`. Attempt to log in to the backend management system using the account `666` and password `666`,, which results in a login failure. 
 
 ![5](img/5.png)
