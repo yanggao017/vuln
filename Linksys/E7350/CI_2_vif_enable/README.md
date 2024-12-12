@@ -4,7 +4,7 @@
 
 - Device: Linksys E7350
 - Firmware Version: Ver.1.1.00.032
-- Manufacturer's website information：https://www.totolink.net/
+- Manufacturer's website information：https://www.linksys.com/
 - Firmware download address ：https://support.linksys.com/kb/article/6935-cn/
 
 ![](./1.png)
